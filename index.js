@@ -1,6 +1,8 @@
 const dodger = document.getElementById('dodger');
 document.addEventListener('keydown'),function(e){
-  if(e.which===)
+  if(e.which===39){
+    moveDodgerRight();
+  }
 }
 function moveDodgerRight(){
   var rightNumbers = dodger.style.right.relace('px','');
